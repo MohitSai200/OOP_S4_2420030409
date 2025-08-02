@@ -3,7 +3,6 @@ package mypack;
 public class Assignmentoperator {
 
 	public static void main(String[] args) {
-		// Demonstrate bitwise AND, OR, XOR, and complement operators on two numbers.
 		System.out.println("Enter two numbers");
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
@@ -23,3 +22,4 @@ public class Assignmentoperator {
 		System.out.println("The complement of a is: "+complementA);
 		System.out.println("The complement of b is: "+complementB);
 }
+
